@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: usa-npr
+  labels:
+    app: usa-npr
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: usa-npr
+  template:
+    metadata:
+      labels:
+        app: usa-npr
+    spec:
+      containers:
+      - name: usa-npr
+        image: lishan2023/usdtonprapps:v1
+        ports:
+        - containerPort: 8080
