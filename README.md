@@ -3,6 +3,10 @@ A simple and efficient web application built with Go (Golang) that converts US D
 
 <img width="1202" alt="image" src="https://github.com/user-attachments/assets/6fcbce75-6dca-4b18-8747-4d3ea6396236">
 
+After using the Ingress:
+<img width="1395" alt="image" src="https://github.com/user-attachments/assets/a903c4ad-c16c-4c7a-92c7-73fd3209614c">
+
+
 ## Features
 ```
 🚀 Real-time currency conversion
